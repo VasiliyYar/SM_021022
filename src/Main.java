@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int [] sale = new int[] {250, 600, 150, 40};
+        long[] sale = new long[]{250, 600, 150, 40};
         SalesManager salesManager = new SalesManager(sale);
-        int max = salesManager.max();
-        int average = salesManager.average();
+
+        long max = salesManager.max();
+        long average = salesManager.average();
+
 
         System.out.println(max);
         System.out.println(average);
